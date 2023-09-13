@@ -12,7 +12,8 @@ public class Numbers {
         int num1 = in.nextInt();
         int num2 = in.nextInt();
         int num3 = in.nextInt();
-        Integer[] numbers = new Integer[]{num3, num2, num1};
+        int num4 = in.nextInt();
+        Integer[] numbers = new Integer[]{num4, num3, num2, num1};
 
         Integer min = numbers[0];
         for (Integer number : numbers) {
