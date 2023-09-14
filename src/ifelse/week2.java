@@ -1,4 +1,4 @@
-package Week2;
+package ifelse;
 
 import java.util.Arrays;
 import java.util.Collections;
