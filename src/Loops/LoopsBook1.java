@@ -5,8 +5,9 @@ public class LoopsBook1 {
         System.out.println("Celsius\tFahrenheit");
 
         for (int i = 2; i <= 100; i += 2) {
-            int fahrenheit = (i * 9 / 5) + 32;
-            System.out.println("   " + i + "\t       " + fahrenheit);
+            //Celsius to fahrenheit calculation
+            int Fahrenheit = (i * 9 / 5) + 32;
+            System.out.println("   " + i + "\t       " + Fahrenheit);
         }
     }
 }
