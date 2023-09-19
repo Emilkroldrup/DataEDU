@@ -50,27 +50,27 @@ import java.util.Scanner;
                 double result = 0.0;
 
                 switch (operator) {
-                case '+':
-                result = operand1 + operand2;
-                break;
-                case '-':
-                result = operand1 - operand2;
-                break;
-                case '*':
-                result = operand1 * operand2;
-                break;
-                case '/':
-                if (operand2 != 0) {
-                    result = (double) operand1 / operand2;
-                } else {
-                    System.out.println("Division by zero! Skipping this objective.");
+                    case '+':
+                    result = operand1 + operand2;
+                    break;
+                    case '-':
+                    result = operand1 - operand2;
+                    break;
+                    case '*':
+                    result = operand1 * operand2;
+                    break;
+                    case '/':
+                    if (operand2 != 0) {
+                        result = (double) operand1 / operand2;
+                    } else {
+                        System.out.println("Division by zero! Skipping this objective.");
+                    }
+                    break;
+                    default:
+                    System.out.println("Invalid operator! Please enter +, -, *, or /.");
+                    System.exit(1); // Exit the program
                 }
-                break;
-                default:
-                System.out.println("Invalid operator! Please enter +, -, *, or /.");
-                System.exit(1); // Exit the program
-            }
-                return result;
+                    return result;
             }
 
             public static double getUserAnswer() {
