@@ -1,7 +1,5 @@
 package Functions;
 
-import ifelse.LeapYear;
-
 public class LeapYearV2 {
    public static boolean LeapYear(int year) {
         boolean isLeapYear;
@@ -25,7 +23,6 @@ public class LeapYearV2 {
         if (LeapYear(year) && month == 2) {
             return 29;
         }
-
         return daysInMonthArray[month - 1];
     }
 
