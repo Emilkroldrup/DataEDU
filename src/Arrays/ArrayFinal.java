@@ -1,17 +1,18 @@
 package Arrays;
-
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayFinal {
     //Finish the functions below so that main works
     public static void main(String[] args) {
-        int[][] tabel = new int[3][4];
-        inputData(tabel);
-        PrintData(tabel);
+        int[][] table = new int[3][4];
+        inputData(table);
+        PrintData(table);
         System.out.println('\n');
-        int sum = sumTable(tabel);
-        int RowWithLowestValue = RowMinSum(tabel);
-        int RowWithHighestValue = RowMaxSum(tabel);
+        int sum = sumTable(table);
+
+        int RowWithLowestValue = RowMinSum(table);
+        int RowWithHighestValue = RowMaxSum(table);
         System.out.println("Sum of rows is: " + sum);
         System.out.println('\n');
         System.out.println("Row with the smallest sum is: " + RowWithLowestValue);
@@ -19,15 +20,14 @@ public class ArrayFinal {
         System.out.println("Row with the highest sum is: " + RowWithHighestValue);
         System.out.println('\n');
 
-        int[] TableRowSum = RowSum(tabel);
+        int[] TableRowSum = RowSum(table);
         System.out.println("Row Sums:");
         for (int i = 0; i < TableRowSum.length; i++) {
             System.out.println("Row " + i + " Sum: " + TableRowSum[i]);
         }
         System.out.println('\n');
-        sumColumns(tabel);
+        sumColumns(table);
     }
-
 
     //Function need to read 12 integers in the 2-dimensional array a with 4 rows and 3 columns
     public static void inputData(int[][] a) {
