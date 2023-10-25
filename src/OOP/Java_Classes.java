@@ -1,6 +1,6 @@
 package OOP;
 
-public class Objects_And_Classes {
+public class Java_Classes {
     public static void main(String[] args) {
         Products v1 = new Products(1, "Product1", 10, 50.5);
         Products v2 = new Products(2, "Product2", 20, 60.5);
