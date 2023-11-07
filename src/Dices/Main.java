@@ -42,7 +42,6 @@ public class Main {
         for (int i = 0; i < 6; i++) {
             yatzyGame.addDie(new Terning("t" + (i + 1)));
         }
-
         yatzyGame.playRound();
 
     }
