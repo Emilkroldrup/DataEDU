@@ -1,0 +1,4 @@
+1,John,Doe,123 Main St,12345,555-1234,A
+2,Jane,Smith,456 High St,67890,555-5678,B
+3,Lasse,Papkasse,23 løgnergade,4700,222324,A
+

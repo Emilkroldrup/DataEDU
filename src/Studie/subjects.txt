@@ -1,0 +1,4 @@
+fagnr,fagNavn,laererNr
+201,Mathematics,101
+202,Computer Science,102
+
